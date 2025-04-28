@@ -55,7 +55,7 @@ main {
     box-shadow: 0 4px 12px rgba(255,255,255,0.2);
     text-align: center;
     transition: transform 0.3s;
-    border: 2px dotted yellow; /* Yellow dotted border */
+    border: 6px dotted yellow; /* Yellow dotted border */
 }
 
 .product:hover {
