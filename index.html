@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Shyaam Watches</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Shree Shyaam Watches</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#" id="cartBtn">Cart (<span id="cartCount">0</span>)</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main id="product-list">
+        <!-- Products will be added dynamically -->
+    </main>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Shree Shyaam Watches, your ultimate destination for premium, stylish, and affordable watches. 
+        We believe that a watch is not just a timepiece, but a reflection of your personality. 
+        With a wide variety of designs, from classic to modern, we are committed to bringing you the best timepieces to match your style.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>📞 Mobile: 8104257343</p>
+        <p>📍 Address: Near City Center Mall, Mumbai, India</p>
+        <p>📧 Email: contact@shreeshyaamwatches.com</p>
+    </section>
+
+    <div id="cart" class="hidden">
+        <h2>Your Cart</h2>
+        <ul id="cartItems"></ul>
+        <button id="closeCart">Close Cart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
